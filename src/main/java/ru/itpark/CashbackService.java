@@ -1,7 +1,7 @@
 package ru.itpark;
 
 public class CashbackService {
-    public int cashbackCalculate(double purchaseBasic, double purchaseHight, double purchaseSpecial) {
+    public int cashbackCalculate(int purchaseBasic, int purchaseHight, int purchaseSpecial) {
 
         int basicCashbackPercent = 1;
         int hightCashbackPercent = 5;
