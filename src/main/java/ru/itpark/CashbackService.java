@@ -8,7 +8,7 @@ public class CashbackService {
         int specialCashbackPercent = 30;
         int maxBoundCashback = 3_000;
 
-        int result = (int)((purchaseBasic * basicCashbackPercent) + (purchaseHight * hightCashbackPercent) + (purchaseSpecial * specialCashbackPercent)) / 100;
+        int result = (purchaseBasic * basicCashbackPercent) + (purchaseHight * hightCashbackPercent) + (purchaseSpecial * specialCashbackPercent) / 100;
 
         if (result >= maxBoundCashback) {
             result = maxBoundCashback;
