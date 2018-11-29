@@ -13,7 +13,7 @@ class CashbackServiceTest {
             CashbackService cashbackTest = new CashbackService();
             int cashback = cashbackTest.cashbackCalculate(9_542, 12_500, 6_900);
 
-            assertEquals(2790, cashback);
+            assertEquals(2_790, cashback);
         }
         {
 
